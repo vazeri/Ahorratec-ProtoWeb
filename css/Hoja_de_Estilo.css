@@ -725,7 +725,10 @@ ul.templatemo-project-gallery  li  a img:hover {
   .navbar-nav > li > a {
     padding-top: 9px;
     padding-bottom: 9px;
-  } 
+  }
+  #Ahorratec-Centro {
+        float: left; 
+    }
 }
 
 @media (max-width: 768px) {
