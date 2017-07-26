@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .templatemo-team {
     background: url('../images/background.jpg') ; 
-    background-size: 340pc 100pc;
+    background-size: auto 100%;
     background-repeat: no-repeat;
     background-attachment: static;
      color:#000000;   
@@ -523,7 +523,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-attachment: fixed;
-	background-size: auto;
+	background-size: auto 100%;
 }
 
 .footer_container {
@@ -729,6 +729,12 @@ ul.templatemo-project-gallery  li  a img:hover {
   #Ahorratec-Centro {
         float: left; 
     }
+  .templatemo-team{
+    background-size: 100% 100%;
+    }
+  .templatemo-footer {
+  background-size: 100% 100%;
+    } 
 }
 
 @media (max-width: 768px) {
@@ -740,6 +746,7 @@ ul.templatemo-project-gallery  li  a img:hover {
             float:right;
             margin-bottom :40px; 
       }
+    
 }
 
 @media (max-width: 380px) {
