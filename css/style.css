@@ -51,7 +51,7 @@ ul.checkout-bar li.active:before {
   z-index: 1;
 }
 ul.checkout-bar li.visited {
-  background: #ECECEC;
+  background: #002E5B;
   color: #57aed1;
   z-index: 0;
 }
@@ -110,7 +110,7 @@ ul.checkout-bar a {
     -webkit-box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
     box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
     background-size: 35px 35px;
-    background-color: #EcEcEc;
+    background-color: #002E5B;
     background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
     background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
     border-radius: 15px;
