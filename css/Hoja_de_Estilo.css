@@ -743,7 +743,9 @@ ul.templatemo-project-gallery  li  a img:hover {
             float:right;
             margin-bottom :40px; 
       }
-    #centroTs { text-align: center; }
+    #centroTs {
+    text-align: center;
+    }
 }
 
 @media (max-width: 380px) {
