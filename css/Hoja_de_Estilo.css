@@ -1,14 +1,12 @@
 body, html { overflow-x:hidden; }
 
 body {
-	
-	
     background-color: #ffffff;
     font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
     font-size: 15px;
-    
-	 background-image: url('images/fondo.jpg');
-	 background-position: center bottom;
+   
+	background-image: url('images/fondo.jpg');
+	background-position: center bottom;
 	 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -26,6 +24,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
      -moz-border-radius: 0 !important;
           border-radius: 0 !important;
 }
+
 
  
 .templatemo_clear {
@@ -87,7 +86,6 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 /* ------ Carousel ----- */
 
-
 #templatemo-carousel {
     background: url('../images/templatemo_carousel_bg.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -96,7 +94,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     background-size: cover;
     overflow-x: hidden;
     margin-bottom:0;
-    height: 550px;
+    height: 500px;
 }
 
 #templatemo-carousel .carousel-caption {
@@ -116,27 +114,28 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 @media (min-width: 768px) {
     #templatemo-carousel .carousel-caption p {
-        line-height: 1.5;
         margin-bottom: 20px;
+        line-height: 1.4;
         font-size: 21px;
     }
 
     #templatemo-carousel .carousel-caption {
-        padding-bottom: 0px;
+        padding-bottom: 140px;
         right: 20%;
         left: 20%;
+		
+	margin-bottom: -125px;
     }
 }
 
 @media (max-width: 768px) {
     #templatemo-carousel .carousel-caption {
-        padding-bottom: 0px;
+        padding-bottom: 120px;
     }
 }
 
 @media (max-width: 1024px) {
     #templatemo-carousel {
-		
         background: url('../images/templatemo_carousel_bg_s.jpg') no-repeat center center; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -145,8 +144,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
         overflow-x: hidden;
         margin-bottom:0;
         height: 500px;
-		line-height: 1.5;
-	}
+    }
 }
 
 .templatemo-welcome {
@@ -162,16 +160,16 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     font-family:  'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 42px;
-     min-height: 640px;
+     min-height: 450px;
 	margin: 25px 0;
     color: #333333;
 }
+
 
 .video-container {
 	position:relative;
 	padding-bottom:56.25%;
 	padding-top:30px;
-	
 	overflow:hidden;
 }
 
@@ -194,7 +192,6 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     font-size: 20px;
 }
 
-
 .templatemo-service-item p {
     font-weight: normal; 
     text-align: justify; 
@@ -210,7 +207,6 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     font-size: 14px;
     color: #FFFFFF;
 }
-
 
 .btn-orange {
     background-color: #214478;
@@ -297,7 +293,6 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     min-width: 298px;
     height: 67px;
     color: #fff; 
-
 }
 
 .team_hr {
@@ -324,7 +319,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-attachment: static;
-     color:#000000;   
+    color:#000000;   
     font-family:  'Open Sans', sans-serif;
     min-height:500px;
 }
@@ -459,7 +454,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .blog_header {
-	   display: block;
+	display: block;
     margin: 0 auto;
     font-weight: bold; 
     font-size: 18px; 
@@ -519,11 +514,13 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-footer {
-    background-image: url('../images/donativos.jpg');
+    background-image: url('../images/donativos.jpg') ;
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	background-attachment: fixed;
-	background-size: auto 100%;
+	background-attachment: static;
+	background-color: black;
+	max-width: 100%;
+	
 }
 
 .footer_container {
