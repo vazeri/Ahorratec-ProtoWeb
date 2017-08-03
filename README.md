@@ -12,6 +12,7 @@ Es una herramienta de software-libre para el monitoreo de energía electrica a p
 **Version 1.0 de ahorratec desarrollada por [vazeri](https://github.com/vazeri/) con mejoras graficas y atención de problemas por [JuanCZD](https://github.com/JuanCZD/)**
 
 Preview master: https://ahorratec.github.io/ProtoWeb/
+
 Preview Juan: https://juanczd.github.io/ProtoWeb/
 
 ![Preview](https://github.com/Ahorratec/ProtoWeb/blob/master/images/preview.jpg)
