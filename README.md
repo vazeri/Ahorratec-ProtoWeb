@@ -7,8 +7,8 @@ ___
 Página de presentación de proyecto de Ahorratec México, previo al FIT 2017.
 
 Una aplicación para procesar, logear, visualizar, energía, temperatura y otras variables ambientales.
-Es una herramienta de software-libre para el monitoreo de energía electrica a partir del proyecto [OpenEnergyMonitor project](http://openenergymonitor.org), localizada para latino america.
-
+Es una herramienta de software-libre para el monitoreo de energía eléctrica a partir del proyecto [OpenEnergyMonitor project](http://openenergymonitor.org), localizada para latino américa.
+ 
 **Version 1.0 de ahorratec desarrollada por [vazeri](https://github.com/vazeri/) con mejoras graficas y atención de problemas por [JuanCZD](https://github.com/JuanCZD/)**
 
 Preview master: https://ahorratec.github.io/ProtoWeb/
