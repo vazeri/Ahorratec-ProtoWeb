@@ -742,9 +742,6 @@ ul.templatemo-project-gallery  li  a img:hover {
     font-size: 40vw;
 }
 
-}
-
-
 @media (max-width: 380px) {
     .member-thumb .thumb-overlay {
             padding-left: 30%;
