@@ -53,9 +53,8 @@ jQuery(function ($) {
         function scrollTo(selectors) {
 
             if (!$(selectors).size()) return;
-            else { return };
-            var selector_top = $(selectors).offset().top - topMenuHeight;
-            $("html,body").animate({ scrollTop: selector_top }, "slow");
+            var selectorTop = $(selectors).offset().top - topMenuHeight;
+            $("html,body").animate({ scrollTop: selectorTop }, "slow");
 
         }
     });
