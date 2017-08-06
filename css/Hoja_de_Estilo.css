@@ -5,7 +5,7 @@ body {
     font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
     font-size: 15px;
    
-	background-image: url('images/fondo.jpg');
+	background-image: url('images/background.jpg');
 	background-position: center bottom;
 	 
     background-repeat: no-repeat;
@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 .templatemo-welcome {
     border-bottom: 2px solid #214478;
     min-height: 240px;
-	background: url('../images/background2.jpg') ; 
+	background: url('../images/background.jpg') ; 
     background-repeat: repeat;
     background-attachment: fixed;
      color:#000000;

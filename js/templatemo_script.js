@@ -7,13 +7,6 @@ jQuery(function($) {
         $(document).ready( function() {
 
             // load google map
-        var script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
-            'callback=initialize';
-        document.body.appendChild(script);
-
-        top_menu_height = $('.templatemo-top-menu').height();
         // scroll spy to auto active the nav item
         $('body').scrollspy({ target: '#templatemo-nav-bar', offset: top_menu_height + 10 });
 		$('.external-link').unbind('click');
@@ -54,23 +47,9 @@ jQuery(function($) {
         });
 
         //gallery light box setup
-        $('a.colorbox').colorbox({
-                                    rel: function(){
-                                        return $(this).data('group');
-
-                                    }
-        });
+        
     });
 });
-
-function initialize() {
-    var mapOptions = {
-      zoom: 17,
-      center: new google.maps.LatLng(19.500087,-99.134426)
-    };
-
-    var map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);
-}
 
 // scroll animation 
 function scrollTo(selectors)
