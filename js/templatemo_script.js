@@ -1,20 +1,20 @@
 var top_menu_height = 0;
 jQuery(function($) {
 		$(window).load( function() {
-			$('.external-link').unbind('click');	
+			$('.external-link').unbind("click");	
 		});
 		
         $(document).ready( function() {
 
             // load google map
         // scroll spy to auto active the nav item
-        $('body').scrollspy({ target: '#templatemo-nav-bar', offset: top_menu_height + 10 });
-		$('.external-link').unbind('click');
+        $('body').scrollspy({ target: "#templatemo-nav-bar", offset: top_menu_height + 10 });
+		$(".external-link").unbind("click");
 
         // scroll to top
-        $('#btn-back-to-top').click(function(e){
+        $("#btn-back-to-top").click(function(e){
             e.preventDefault();
-            scrollTo('#templatemo-top');
+            scrollTo("#templatemo-top");
         });
 
         // scroll to specific id when click on menu
@@ -22,34 +22,30 @@ jQuery(function($) {
             e.preventDefault(); 
             var linkId = $(this).attr('href');
             scrollTo(linkId);
-            if($('.navbar-toggle').is(":visible") == true){
-                $('.navbar-collapse').collapse('toggle');
+            if($(".navbar-toggle").is(":visible") === true){
+                $(".navbar-collapse").collapse('toggle');
             }
             $(this).blur();
             return false;
         });
 
         // to stick navbar on top
-        $('.templatemo-top-menu ').stickUp();
+        $(".templatemo-top-menu ").stickUp();
 
         // gallery category
-        $('.templatemo-gallery-category a').click(function(e){
+        $(".templatemo-gallery-category a").click(function(e){
             e.preventDefault(); 
-            $(this).parent().children('a').removeClass('active');
-            $(this).addClass('active');
-            var linkClass = $(this).attr('href');
-            $('.gallery').each(function(){
-                if($(this).is(":visible") == true){
+            $(this).parent().children("a").removeClass("active");
+            $(this).addClass("active");
+            var linkClass = $(this).attr("href");
+            $(".gallery").each(function(){
+                if($(this).is(":visible") === true){
                    $(this).hide();
                 };
             });
             $(linkClass).fadeIn();  
         });
-
-        //gallery light box setup
-        
-    });
-});
+      });
 
 // scroll animation 
 function scrollTo(selectors)
@@ -57,6 +53,6 @@ function scrollTo(selectors)
 
     if(!$(selectors).size()) return;
     var selector_top = $(selectors).offset().top - top_menu_height;
-    $('html,body').animate({ scrollTop: selector_top }, 'slow');
+    $("html,body").animate({ scrollTop: selector_top }, 'slow');
 
 }
