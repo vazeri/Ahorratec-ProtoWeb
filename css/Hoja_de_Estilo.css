@@ -520,6 +520,9 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 	background-attachment: static;
 	background-color: black;
 	max-width: 100%;
+    background-size: cover;
+    overflow-x: hidden;
+    margin-bottom: 0;
 	
 }
 
@@ -705,7 +708,9 @@ ul.templatemo-project-gallery  li  a img:hover {
     background-size: 100% 100%;
     }
   .templatemo-footer {
-  background-size: 100% 100%;
+      background-size: cover;
+      overflow-x: hidden;
+      margin-bottom: 0;
     }
 }
 
