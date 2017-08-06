@@ -52,7 +52,7 @@ jQuery(function ($) {
         // scroll animation 
         function scrollTo(selectors) {
 
-            if (!$(selectors).size()) return;
+            if (!$(selectors).size()) { return };
             var selectorTop = $(selectors).offset().top - topMenuHeight;
             $("html,body").animate({ scrollTop: selectorTop }, "slow");
 
