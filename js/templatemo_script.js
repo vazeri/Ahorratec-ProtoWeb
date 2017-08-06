@@ -2,6 +2,7 @@ var topMenuHeight = 0;
 var linkId = 0;
 var linkClass = 0;
 
+
 jQuery(function ($) {
     $(window).load(function () {
         $(".external-link").unbind("click");
@@ -9,6 +10,13 @@ jQuery(function ($) {
 
     $(document).ready(function () {
 
+        function scrollTo(selectors) {
+
+            if (!$(selectors).size()) { return };
+            var selectorTop = $(selectors).offset().top - topMenuHeight;
+            $("html,body").animate({ scrollTop: selectorTop }, "slow");
+
+        }
         // load google map
         // scroll spy to auto active the nav item
         $("body").scrollspy({ target: "#templatemo-nav-bar", offset: topMenuHeight + 10 });
@@ -48,14 +56,6 @@ jQuery(function ($) {
             });
             $(linkClass).fadeIn();
         });
-
-        // scroll animation 
-        function scrollTo(selectors) {
-
-            if (!$(selectors).size()) { return };
-            var selectorTop = $(selectors).offset().top - topMenuHeight;
-            $("html,body").animate({ scrollTop: selectorTop }, "slow");
-
-        }
+ 
     });
 });
