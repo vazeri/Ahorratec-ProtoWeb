@@ -1,5 +1,6 @@
 var topMenuHeight = 0;
-scrollTo(linkId);
+var linkId = $(this).attr("href");
+
 
 jQuery(function ($) {
     $(window).load(function () {
@@ -7,7 +8,7 @@ jQuery(function ($) {
     });
 
     $(document).ready(function () {
-     
+
         // load google map
         // scroll spy to auto active the nav item
         $("body").scrollspy({ target: "#templatemo-nav-bar", offset: topMenuHeight + 10 });
@@ -22,7 +23,8 @@ jQuery(function ($) {
         // scroll to specific id when click on menu
         $('.templatemo-top-menu .navbar-nav a').click(function (e) {
             e.preventDefault();
-            var linkId = $(this).attr("href");
+            scrollTo(linkId);
+            scrollTo(linkId);
             if ($(".navbar-toggle").is(":visible") === true) {
                 $(".navbar-collapse").collapse("toggle");
             }
@@ -46,15 +48,15 @@ jQuery(function ($) {
             });
             $(linkClass).fadeIn();
         });
-    
-    // scroll animation 
-    function scrollTo(selectors) {
 
-        if (!$(selectors).size()) return;
-        else (any);
-        var selector_top = $(selectors).offset().top - topMenuHeight;
-        $("html,body").animate({ scrollTop: selector_top }, 'slow');
+        // scroll animation 
+        function scrollTo(selectors) {
 
-    }
+            if (!$(selectors).size()) return;
+            else (any);
+            var selector_top = $(selectors).offset().top - topMenuHeight;
+            $("html,body").animate({ scrollTop: selector_top }, 'slow');
+
+        }
     });
 });
