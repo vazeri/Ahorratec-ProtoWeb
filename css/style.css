@@ -5,7 +5,7 @@ body {
     font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
     font-size: 15px;
    
-	background-image: url('images/background.jpg');
+	background-image: url('img/background.jpg');
 	background-position: center bottom;
 	 
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 /* ------ Carousel ----- */
 
 #templatemo-carousel {
-    background: url('../images/templatemo_carousel_bg.jpg') no-repeat center center fixed; 
+    background: url('../img/templatemo_carousel_bg.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 @media (max-width: 1024px) {
     #templatemo-carousel {
-        background: url('../images/templatemo_carousel_bg_s.jpg') no-repeat center center; 
+        background: url('../img/templatemo_carousel_bg_s.jpg') no-repeat center center; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 .templatemo-welcome {
     border-bottom: 2px solid #214478;
     min-height: 240px;
-	background: url('../images/background.jpg') ; 
+	background: url('../img/background.jpg') ; 
     background-repeat: repeat;
     background-attachment: fixed;
      color:#000000;
@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-team {
-    background: url('../images/background.jpg') ; 
+    background: url('../img/background.jpg') ; 
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-attachment: static;
@@ -467,7 +467,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 #templatemo-contact {
-	background: url('../images/background2.jpg') ; 
+	background: url('../img/background2.jpg') ; 
     background-repeat: repeat;
     background-attachment: fixed;
     color:#000000;
@@ -514,7 +514,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-footer {
-    background-image: url('../images/donativos.jpg') ;
+    background-image: url('../img/donativos.jpg') ;
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-attachment: static;
@@ -527,7 +527,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .footer_container {
-	background: url('../images/background2.jpg') ; 
+	background: url('../img/background2.jpg') ; 
 	background-repeat: repeat;
 	background-attachment: fixed;
 	color:#000000;
@@ -557,32 +557,10 @@ a:hover .social-icon {
     background-color: #d9a300;
 }
 
-.social-icon-rss {
-    background: url('../images/social-icon-rss.png') no-repeat;
-    width: 42px;
-    height: 42px;
-    display: block;
-}
-
-a:hover .social-icon-rss {
-    background: url('../images/social-icon-rss-over.png') no-repeat;
-}
-
-.social-icon-dribbble {
-    background: url('../images/social-icon-dribbble.png') no-repeat;
-    width: 42px;
-    height: 42px;
-    display: block;
-}
-
-a:hover .social-icon-dribbble {
-    background: url('../images/social-icon-dribbble-over.png') no-repeat;
-}
-
 ul.templatemo-project-gallery  li  a img:hover {
     border: 10px solid #D4AA00;
 }
-@import url('file:///C:\Users\Erick\Source\Repo\ProtoWeb\css\fontello.css');
+
 .templatemo-gallery-category a {
 	color:#333333; 
 }
