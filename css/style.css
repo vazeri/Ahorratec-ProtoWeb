@@ -318,7 +318,6 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     background: url('../img/background.jpg') ; 
     background-size: auto 100%;
     background-repeat: no-repeat;
-    background-attachment: static;
     color:#000000;   
     font-family:  'Open Sans', sans-serif;
     min-height:500px;
@@ -517,7 +516,6 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     background-image: url('../img/donativos.jpg') ;
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	background-attachment: static;
 	background-color: black;
 	max-width: 100%;
     background-size: cover;
