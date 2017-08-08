@@ -16,4 +16,4 @@ Preview master: https://ahorratec.github.io/ProtoWeb/
 
 Preview Juan: https://juanczd.github.io/ProtoWeb/
 
-![Preview](https://github.com/Ahorratec/ProtoWeb/blob/master/images/preview.jpg)
+![Preview](https://github.com/Ahorratec/ProtoWeb/blob/master/img/preview.jpg)
