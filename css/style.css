@@ -17,12 +17,16 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
+span, p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
+h1, h2, h3, h4, h5, h6, .Tw_Cen_MT { font-family: 'Tw Cen MT', Arial, Helvetice Neue, sans-serif; }
+.titulo{ font-size:20px;}
+.subtitulo{ font-size:18px;}
+
 
 * {
-  -webkit-border-radius: 0 ;
-     -moz-border-radius: 0 ;
-          border-radius: 0 ;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
 }
 
 .yellowico{
@@ -362,9 +366,8 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .team-inner-header {
-    font-family: 'Open Sans', sans-serif;
     font-weight:600;
-    font-size:16px;
+    font-size:20px;
 }
 
 .team-inner-subtext {
