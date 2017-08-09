@@ -18,6 +18,14 @@ body {
 }
 
 span, p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
+
+@font-face {
+    font-family: 'Tw Cen MT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Tw Cen MT'), url('../font/Tw Cen MT.woff') format('woff');
+}
+
 h1, h2, h3, h4, h5, h6, .Tw_Cen_MT { font-family: 'Tw Cen MT', Arial, Helvetice Neue, sans-serif; }
 .titulo{ font-size:20px;}
 .subtitulo{ font-size:18px;}
