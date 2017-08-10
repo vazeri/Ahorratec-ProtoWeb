@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <title>Ahorratec, Ahorra en tu recibo de luz</title>
@@ -7,11 +7,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#214478" />
-    <link href="image/favico.png" rel="icon" type="image/png">
+    <link href="img/Favico.png" rel="icon" type="img/png">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel='stylesheet' type='text/css'>
     <link href="css/fontello.css" rel='stylesheet'>
+    <link rel="stylesheet" href="css/plyr.css">
 </head>
 <body>
     <div class="templatemo-top-bar" id="inicio">
@@ -31,9 +32,6 @@
             <div class="navbar navbar-default" role="navigation">
                 <div class="container">
                     <!--
-
-                    ERICK VAZQUEZ
-
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -47,11 +45,11 @@
 
                     <div id="templatemo-nav-bar">
                         <ul class="nav navbar-nav navbar-right" style="margin-top: 20px;">
-                            <li><a class="Tw_Cen_MT" style="font-size: 17px;" href="#templatemo-1">¿QUE ES?</a></li>
+                            <li><a class="Tw_Cen_MT" style="font-size: 17px;" href="#templatemo-1">QUE ES</a></li>
                             <li><a class="Tw_Cen_MT" style="font-size: 17px;" href="#templatemo-2">PROTOTIPO</a></li>
-                            <li><a class="Tw_Cen_MT" style="font-size: 17px;" href="#templatemo-3">¿COMO?</a></li>
+                            <li><a class="Tw_Cen_MT" style="font-size: 17px;" href="#templatemo-3">COMO</a></li>
                             <li><a class="Tw_Cen_MT" style="font-size: 17px;" href="#templatemo-4">DEMO</a></li>
-                            <li><a class="Tw_Cen_MT" style="font-size: 17px;" href="#templatemo-5">¿DONDE?</a></li>
+                            <li><a class="Tw_Cen_MT" style="font-size: 17px;" href="#templatemo-5">DONDE</a></li>
                             <li><a class="Tw_Cen_MT" style="font-size: 17px;" href="#templatemo-6">NOSOTROS</a></li>
                             <!--/.<li><a rel="nofollow" href="https://ahorratec.org/sistema/" class="external-link">SISTEMA</a></li> -->
                         </ul>
@@ -121,12 +119,22 @@
         <a class="left carousel-control" href="#templatemo-carousel" data-slide="prev"><span class="icon-left-open glyphicon-chevron-left"></span></a>
         <a class="right carousel-control" href="#templatemo-carousel" data-slide="next"><span class="icon-right-open glyphicon-chevron-right"></span></a>
     </div>
-    <div class="templatemo-welcome" id="templatemo-1">
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/AbIrXslZhCk" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </div>
-    <!-- IMAGENES -->
+	
+    <div class="video" href="templatemo-1">
+  <video poster="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.jpg" controls crossorigin>
+    <!-- Video files -->
+    <source src="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.mp4" type="video/mp4">
+    <source src="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.webm" type="video/webm">
+
+    <!-- Text track file -->
+    <track kind="captions" label="English" srclang="en" src="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.en.vtt" default>
+
+    <!-- Fallback for browsers that don't support the <video> element -->
+    <a href="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.mp4" download>Download</a>
+  </video>
+  
+ 
+</div><!-- IMAGENES -->
     <div id="templatemo-2">
         <p>
             <img src="img/der.jpg" alt="Prototipo2" style="width:100%;height:100%;">
@@ -148,10 +156,8 @@
                             <div class="text-center">
                                 <div class="member-thumb">
                                     <img width="260" src="img/s1.svg" class="img-responsive" alt="Monitor de energía" />
-                                    <div class="team-inner">
                                         <p class="team-inner-subtext">Conéctalo a la clavija de la luz, y coloca los sensores proporcionados en los conductores que deseas monitorear</p>
                                         <!--  <a class="btn btn-lg btn-orange" href="#" role="button" style="margin: 20px;">¿Necesitas ayuda?</a> -->
-                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -159,12 +165,10 @@
                             <div class="text-center">
                                 <div class="member-thumb">
                                     <img width="260" src="img/s2.svg" class="img-responsive" alt="Enrutador de tu compañía de internet" />
-                                    <div class="team-inner">
                                         <p class="team-inner-subtext">Conecta el módulo adicional que te proporcionamos a través de tú modem/ruteador de internet.</p>
                                         <br />
                                         <!--    <a class="btn btn-lg btn-orange" href="#" role="button" style="margin: 20px;">Manual de usuario</a> -->
-                                    </div>
-                                </div>
+                                 </div>
                             </div>
                             <div class="clearfix visible-sm-block"></div>
                         </li>
@@ -172,22 +176,18 @@
                             <div class="text-center">
                                 <div class="member-thumb">
                                     <img width="260" src="img/s3.svg" class="img-responsive" alt="Sistema de Información Ahorratec" />
-                                    <div class="team-inner">
                                         <p class="team-inner-subtext">Por medio de nuestro sistema en línea nos encargamos de calcular el costo en pesos de la energía que consumes.</p>
                                         <!--   <a class="btn btn-lg btn-orange" href="https://ahorratec.org/sistema/" role="button" style="margin: 20px;">Inicia sesión</a> -->
-                                    </div>
-                                </div>
+                                 </div>
                             </div>
                         </li>
                         <li class="col-lg-3 col-md-3 col-sm-6 ">
                             <div class="text-center">
                                 <div class="member-thumb">
                                     <img width="260" src="img/s4.svg" class="img-responsive" alt="Monitorea en tiempo real" />
-                                    <div class="team-inner">
                                         <p class="team-inner-subtext">Personaliza tu cuenta y la manera de mostrar tú información en cualquier dispositivo en cualquier parte del mundo.</p>
                                         <!--   <a class="btn btn-lg btn-orange" href="https://ahorratec.org/sistema" role="button" style="margin: 20px;">Personaliza</a> -->
-                                    </div>
-                                </div>
+                                 </div>
                             </div>
                         </li>
                     </ul>
@@ -513,7 +513,7 @@
                         </li>
                         <li class="previous visited">Investigación aplicada</li>
                         <li class="previous visited">Prueba experimental</li>
-                        <li class="previous visited">Desarrollo Tecnológico</li>
+                        <li class="previous visited">Desarrollo tecnológico</li>
                         <li class="active">Desarrollo prototipo</li>
                         <!--
                                         <li class="">Demostración tecnológica</li>
@@ -637,6 +637,8 @@
                 </div>
             </div>
         </div>
+		<script src="js/plyr.js"></script>
+		<script>plyr.setup();</script>
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/stickUp.min.js" type="text/javascript"></script>
