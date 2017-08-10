@@ -7,11 +7,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#214478" />
-    <link href="image/favico.png" rel="icon" type="image/png">
+    <link href="img/favico.png" rel="icon" type="img/png">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel='stylesheet' type='text/css'>
     <link href="css/fontello.css" rel='stylesheet'>
+	<link rel="stylesheet" href="css/plyr.css">
 </head>
 <body>
     <div class="templatemo-top-bar" id="inicio">
@@ -121,12 +122,22 @@
         <a class="left carousel-control" href="#templatemo-carousel" data-slide="prev"><span class="icon-left-open glyphicon-chevron-left"></span></a>
         <a class="right carousel-control" href="#templatemo-carousel" data-slide="next"><span class="icon-right-open glyphicon-chevron-right"></span></a>
     </div>
-    <div class="templatemo-welcome" id="templatemo-1">
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/AbIrXslZhCk" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </div>
-    <!-- IMAGENES -->
+	
+    <div class="video">
+  <video poster="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.jpg" controls crossorigin>
+    <!-- Video files -->
+    <source src="https://ahorratec.org/video/licencia.mp4" type="video/mp4">
+    <source src="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.webm" type="video/webm">
+
+    <!-- Text track file -->
+    <track kind="captions" label="English" srclang="en" src="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.en.vtt" default>
+
+    <!-- Fallback for browsers that don't support the <video> element -->
+    <a href="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.mp4" download>Download</a>
+  </video>
+  
+ 
+</div><!-- IMAGENES -->
     <div id="templatemo-2">
         <p>
             <img src="img/der.jpg" alt="Prototipo2" style="width:100%;height:100%;">
@@ -637,6 +648,8 @@
                 </div>
             </div>
         </div>
+		<script src="js/plyr.js"></script>
+		<script>plyr.setup();</script>
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/stickUp.min.js" type="text/javascript"></script>
