@@ -5,7 +5,6 @@ body {
     font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
     font-size: 15px;
    
-	background-image: url('img/background.jpg');
 	background-position: center bottom;
 	 
     background-repeat: no-repeat;
@@ -379,8 +378,12 @@ h1, h2, h3, h4, h5, h6, .Tw_Cen_MT { font-family: 'Tw Cen MT', Arial, Helvetice 
 }
 
 .team-inner-subtext {
-    font-weight:normal;
-    font-size:14px;
+   text-align:center;
+   display:block;
+   width: 85%;
+   margin: 20px;
+   font-size:14px;
+   
 }
 
 .row_team {
